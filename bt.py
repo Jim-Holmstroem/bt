@@ -26,6 +26,7 @@ def sub_op(a, b):
 
 if __name__ == "__main__":
     import argparse
+
     parser = argparse.ArgumentParser(prog='bt')
     subparsers = parser.add_subparsers(help="sub-command help")
 
